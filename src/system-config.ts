@@ -2,12 +2,10 @@
  * User Configuration.
  **********************************************************************************************/
 /** Map relative paths to URLs. */
-const map: any = {
-};
+const map: any = {};
 
 /** User packages configuration. */
-const packages: any = {
-};
+const packages: any = {};
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
@@ -30,6 +28,7 @@ const barrels: string[] = [
   'app',
   'app/shared',
   'app/contacts',
+
   /** @cli-barrel */
 ];
 
