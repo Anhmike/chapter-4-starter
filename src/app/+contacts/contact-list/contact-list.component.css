@@ -15,3 +15,7 @@ tbody > tr {
 .ca-favorite-icon-white {
     color: white;
 }
+
+.noContactsMsg {
+    text-align: center;
+}

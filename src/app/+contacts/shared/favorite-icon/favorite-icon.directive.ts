@@ -12,12 +12,12 @@ import { Styles } from '../styles/styles';
 })
 export class FavoriteIconDirective {
   private element: HTMLElement;
-
-  @Input('caFavoriteIcon') isFavorite: boolean;
   
   constructor(element: ElementRef) {
     this.element = element.nativeElement;
   }
+
+  @Input('caFavoriteIcon') isFavorite: boolean;
   
   private ngOnInit() {
     if (this.isFavorite) {
